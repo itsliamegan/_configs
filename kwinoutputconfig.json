@@ -2,17 +2,41 @@
     {
         "data": [
             {
+                "abmLevel": 0,
+                "allowDdcCi": true,
                 "allowSdrSoftwareBrightness": false,
+                "autoBrightnessCurve": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
                 "autoRotation": "InTabletMode",
+                "automaticBrightness": false,
                 "brightness": 1,
                 "colorPowerTradeoff": "PreferEfficiency",
                 "colorProfileSource": "sRGB",
                 "connectorName": "eDP-1",
+                "customModes": [
+                ],
+                "detectedDdcCi": false,
                 "edidHash": "3032f4cf9362cfbbe8f2ac54b6a4457a",
                 "edidIdentifier": "AUO 4925 0 38 2013 0",
+                "edrPolicy": "always",
+                "hdrColorProfileSource": "EDID",
+                "hdrIccProfilePath": "",
                 "highDynamicRange": false,
                 "iccProfilePath": "",
+                "maxBitsPerColor": 0,
                 "mode": {
+                    "flags": 0,
                     "height": 1080,
                     "refreshRate": 60049,
                     "width": 1920
@@ -22,7 +46,9 @@
                 "scale": 1.05,
                 "sdrBrightness": 200,
                 "sdrGamutWideness": 0,
+                "sharpness": 0,
                 "transform": "Normal",
+                "uuid": "eefc25e0-b435-4dd1-8930-7c2cd24d3675",
                 "vrrPolicy": "Never",
                 "wideColorGamut": false
             }
@@ -41,7 +67,8 @@
                             "x": 0,
                             "y": 0
                         },
-                        "priority": 0
+                        "priority": 1,
+                        "replicationSource": ""
                     }
                 ]
             }
