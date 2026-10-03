@@ -1,0 +1,14 @@
+[General]
+Default Identity=555725306
+
+[Identity #0]
+Default Domain=raven
+Disable Fcc=false
+Disable Spam=false
+Identity=Liam Egan
+Image Location=
+Inline Signature=
+Name=Liam Egan
+Override Encryption Defaults=false
+Signature Enabled=false
+uoid=555725306
