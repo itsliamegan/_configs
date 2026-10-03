@@ -63,9 +63,18 @@ popupWidth=677
 [Containments][2][Applets][29][Configuration][General]
 favoritesPortedToKAstats=true
 
+[Containments][2][Applets][31]
+immutability=1
+plugin=org.kde.plasma.windowlist
+
+[Containments][2][Applets][31][Configuration]
+popupHeight=400
+popupWidth=560
+
 [Containments][2][Applets][4]
 immutability=1
 plugin=org.kde.plasma.pager
+transient=true
 
 [Containments][2][Applets][6]
 immutability=1
@@ -158,7 +167,7 @@ extraItems=org.kde.plasma.devicenotifier,org.kde.kupapplet,org.kde.plasma.bright
 knownItems=org.kde.plasma.devicenotifier,org.kde.kupapplet,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.vault,org.kde.plasma.printmanager,org.kde.kscreen,org.kde.plasma.battery,org.kde.kdeconnect,org.kde.plasma.keyboardlayout,org.kde.plasma.mediacontroller,org.kde.plasma.bluetooth,org.kde.plasma.keyboardindicator,org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod,org.kde.plasma.notifications,org.kde.plasma.cameraindicator,org.kde.plasma.volume,org.kde.plasma.weather
 
 [Containments][2][General]
-AppletOrder=29;4;28;6;7;21
+AppletOrder=29;31;28;6;7;21
 
 [ScreenMapping]
 itemsOnDisabledScreens=
