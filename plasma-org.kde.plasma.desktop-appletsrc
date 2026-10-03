@@ -23,7 +23,7 @@ activityId=
 formfactor=2
 immutability=1
 lastScreen=0
-location=4
+location=3
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
@@ -38,29 +38,30 @@ popupWidth=560
 [Containments][2][Applets][21][Configuration][Appearance]
 fontWeight=400
 
-[Containments][2][Applets][22]
+[Containments][2][Applets][27]
 immutability=1
-plugin=org.kde.plasma.showdesktop
+plugin=org.kde.plasma.windowlist
+transient=true
 
-[Containments][2][Applets][3]
+[Containments][2][Applets][28]
 immutability=1
-plugin=org.kde.plasma.kickoff
+plugin=org.kde.plasma.panelspacer
 
-[Containments][2][Applets][3][Configuration]
+[Containments][2][Applets][29]
+immutability=1
+plugin=org.kde.plasma.kicker
+
+[Containments][2][Applets][29][Configuration]
 PreloadWeight=100
 popupHeight=508
 popupWidth=647
 
-[Containments][2][Applets][3][Configuration][General]
+[Containments][2][Applets][29][Configuration][General]
 favoritesPortedToKAstats=true
 
 [Containments][2][Applets][4]
 immutability=1
 plugin=org.kde.plasma.pager
-
-[Containments][2][Applets][5]
-immutability=1
-plugin=org.kde.plasma.icontasks
 
 [Containments][2][Applets][6]
 immutability=1
@@ -74,14 +75,14 @@ plugin=org.kde.plasma.systemtray
 SystrayContainmentId=8
 
 [Containments][2][General]
-AppletOrder=3;4;5;6;7;21;22
+AppletOrder=29;4;28;6;7;21
 
 [Containments][8]
 activityId=
 formfactor=2
 immutability=1
 lastScreen=0
-location=4
+location=3
 plugin=org.kde.plasma.private.systemtray
 popupHeight=432
 popupWidth=432
