@@ -39,7 +39,14 @@ popupHeight=450
 popupWidth=560
 
 [Containments][2][Applets][21][Configuration][Appearance]
+customDateFormat=MMM d
+dateFormat=custom
+fontFamily=Noto Sans
 fontWeight=400
+
+[Containments][2][Applets][21][Configuration][ConfigDialog]
+DialogHeight=630
+DialogWidth=810
 
 [Containments][2][Applets][28]
 immutability=1
