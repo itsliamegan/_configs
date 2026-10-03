@@ -13,10 +13,13 @@ immutability=1
 lastScreen=0
 location=0
 plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
+wallpaperplugin=org.kde.color
 
 [Containments][1][General]
 positions={"1829x1029":[]}
+
+[Containments][1][Wallpaper][org.kde.color][General]
+Color=71,95,133
 
 [Containments][2]
 activityId=
@@ -37,11 +40,6 @@ popupWidth=560
 
 [Containments][2][Applets][21][Configuration][Appearance]
 fontWeight=400
-
-[Containments][2][Applets][27]
-immutability=1
-plugin=org.kde.plasma.windowlist
-transient=true
 
 [Containments][2][Applets][28]
 immutability=1
