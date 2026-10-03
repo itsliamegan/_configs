@@ -269,3 +269,6 @@ stop current activity=Meta+S,Meta+S,Stop Current Activity
 switch to next activity=none,none,Switch to Next Activity
 switch to previous activity=none,none,Switch to Previous Activity
 toggle do not disturb=none,none,Toggle do not disturb
+
+[services][org.kde.krunner.desktop]
+_launch=Search\tAlt+Space\tAlt+F2\tMeta+Space
