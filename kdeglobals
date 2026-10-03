@@ -135,6 +135,9 @@ ForegroundVisited=155,89,182
 [General]
 ColorSchemeHash=3b0b7b7f6fa70c9f360b5a78837836d8971524f3
 
+[KDE]
+LookAndFeelPackage=org.kde.breezetwilight.desktop
+
 [WM]
 activeBackground=227,229,231
 activeBlend=227,229,231
