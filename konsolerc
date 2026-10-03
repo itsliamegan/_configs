@@ -1,5 +1,19 @@
+MenuBar=Disabled
+
 [General]
 ConfigVersion=1
+
+[MainWindow][Toolbar mainToolBar]
+ToolButtonStyle=TextOnly
+
+[MainWindow][Toolbar sessionToolbar]
+ToolButtonStyle=TextOnly
+
+[Toolbar mainToolBar]
+ToolButtonStyle=TextOnly
+
+[Toolbar sessionToolbar]
+ToolButtonStyle=TextOnly
 
 [UiSettings]
 ColorScheme=
