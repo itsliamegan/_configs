@@ -10,6 +10,9 @@ BorderActivate=9
 Active=true
 NightTemperature=5500
 
+[TabBox]
+DelayTime=45
+
 [Tiling][17225379-4242-473a-abc3-fe6152e8f46f][eefc25e0-b435-4dd1-8930-7c2cd24d3675]
 padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
